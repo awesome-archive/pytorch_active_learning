@@ -1,13 +1,41 @@
 # PyTorch Active Learning
 
-Code for human-in-the-loop Machine Learning system for classifying news headlines as disaster-related or not disaster-related.
-
-This is to accompany:  
+Library for common Active Learning methods to accompany:  
 Human-in-the-Loop Machine Learning  
 Robert Munro  
 Manning Publications
 https://www.manning.com/books/human-in-the-loop-machine-learning  
 
+The code is stand-alone and can be used with the book.
+
+# Active Learning methods in the library
+
+The code currently contains methods for:
+
+*Least Confidence sampling* 
+
+*Margin of Confidence sampling*
+
+*Ratio of Confidence sampling*
+
+*Entropy (classification entropy)*
+
+*Model-based outlier sampling*
+
+*Cluster-based sampling*
+
+*Representative sampling* 
+
+*Adaptive Representative sampling*
+
+*Active Transfer Learning for Uncertainty Sampling*
+
+*Active Transfer Learning for Representative Sampling*
+
+*Active Transfer Learning for Adaptive Sampling (ATLAS)*
+
+
+The book covers how to apply them indepedently, in combination, and for different use cases in Computer Vision and Natural Language Processing. It also covers strategies for sampling for real-world diversity to avoid bias.
 
 ## Installation: 
 
@@ -65,7 +93,7 @@ https://azure.microsoft.com/en-us/develop/pytorch/
 The Azure Notebook option might also be a good option, but I haven't tested it out: please let me know if you do! 
 
 ### Linux / Mac / Windows
-If you're install locally or on a cloud server without PyTorch pre-installed, you can use these options:  
+If you're installing locally or on a cloud server without PyTorch pre-installed, you can use these options:  
 
 Mac:  
 `conda install pytorch torchvision -c pytorch`
